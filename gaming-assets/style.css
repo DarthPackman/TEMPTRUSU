@@ -351,11 +351,11 @@ header {
 }
 
 .circle-frame2 {
-  background-image: url(./joey.jpg);
+  background-image: url(./marco.jfif);
 }
 
 .circle-frame3 {
-  background-image: url(./joey.jpg);
+  background-image: url(./IEEE_logo.png);
 } 
 
 @media(max-width:1346px) {
