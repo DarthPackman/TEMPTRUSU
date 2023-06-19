@@ -297,7 +297,8 @@ header {
 
 .circle-frame1,
 .circle-frame2,
-.circle-frame3 {
+.circle-frame3,
+.circle-frame4 {
   background-position: 50% 35%;
   background-repeat: no-repeat;
   background-color: tan;
@@ -341,6 +342,11 @@ header {
   display: block;
   color: rgb(253, 253, 253);
 }
+.circle-frame4:hover .speaker-name{
+  
+  display: block;
+  color: rgb(253, 253, 253);
+}
 
 
 
@@ -355,13 +361,17 @@ header {
 }
 
 .circle-frame3 {
-  background-image: url(./2020_Logo.png);
-} 
+  background-image: url(./profile.png);
+}
+.circle-frame4 {
+  background-image: url(./profile.png);
+}
 
 @media(max-width:1346px) {
   .circle-frame1,
 .circle-frame2,
-.circle-frame3 {
+.circle-frame3,
+.circle-frame4 {
   height: 200px;
   width: 200px;
   margin-right: 0;
