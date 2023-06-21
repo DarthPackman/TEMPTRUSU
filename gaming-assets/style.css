@@ -101,6 +101,11 @@ header {
   font-size: 1.5rem;
 }
 
+.nav-bar-logo{
+  width: 5.2rem;
+  height: 2.5rem;
+}
+
 .action_btn {
   background-color: #FF8181;
   padding: 0.5rem 1rem;
@@ -221,7 +226,7 @@ header {
 
 @media(max-width:992px) {
   .hero-banner>h1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     width: 85%;
     margin: 0 auto;
     text-align: center;
@@ -230,7 +235,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    top: 30%;
+    top: 20%;
     bottom: 0;
     margin: auto;
   }
@@ -295,89 +300,45 @@ header {
 
 }
 
-.circle-frame1,
-.circle-frame2,
-.circle-frame3,
-.circle-frame4 {
-  background-position: 50% 35%;
-  background-repeat: no-repeat;
-  background-color: tan;
-  background-size: cover;
-  border: 5px solid #FF8181;
-  border-radius: 50%;
-  height: 400px;
-  width: 400px;
-  padding-top: 20%;
-  margin-bottom: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-right: 3em;
-
+.speaker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5em;
 }
 
-.speaker-name{
-
-  font-size: 2.5em;
-  font-weight: 700;
-  color: #000000;
-  display: none;
-  transition: opacity .2s, visibility .2s;
-  
+.profile-container{
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
 }
 
-.circle-frame1:hover .speaker-name{
-  
-  display: block;
-  color: rgb(253, 253, 253);
-
+.speaker-img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+  border: #cf6060 solid;
+  margin-left: 3em;
 }
-
-.circle-frame2:hover .speaker-name{
-  
-  display: block;
-  color: rgb(253, 253, 253);
-}
-
-.circle-frame3:hover .speaker-name{
-  
-  display: block;
-  color: rgb(253, 253, 253);
-}
-.circle-frame4:hover .speaker-name{
-  
-  display: block;
-  color: rgb(253, 253, 253);
+.speaker-text{
+  align-self: center;
+  margin-right: 6em;
 }
 
 
 
 
 
-.circle-frame1 {
-  background-image: url(./joey.jpg);
-}
 
-.circle-frame2 {
-  background-image: url(./marco.jfif);
-}
 
-.circle-frame3 {
-  background-image: url(./profile.png);
-}
-.circle-frame4 {
-  background-image: url(./2020_Logo.png);
-}
+
+
+
+
 
 @media(max-width:1346px) {
-  .circle-frame1,
-.circle-frame2,
-.circle-frame3,
-.circle-frame4 {
-  height: 200px;
-  width: 200px;
-  margin-right: 0;
-  margin-bottom: 50px;
-  
-}
+
 
 .speaker-header{
   font-size: 2.5em;
@@ -396,13 +357,27 @@ header {
   font-size: 2.5em;
 }
 
-.speaker-name{
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+.speaker-text{
+  align-self: center;
+  margin: 2em;
+}
 
-  font-size: 1.5em;
-  font-weight: 700;
- 
+.speaker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5em;
+}
 
-
+.speaker-img{
+  align-self: center;
+  margin: 0;
 }
 
 .container-1{
