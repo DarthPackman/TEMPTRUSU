@@ -6,13 +6,6 @@
   font-size: 34px;
 }
 
-.image-container {
-  width: 200px; /* Adjust as needed */
-  height: 200px; /* Adjust as needed */
-  overflow: hidden;
-}
-
-
 #app-navbar {
   background: linear-gradient(120deg, #00e4d0, #5983e8);
 }
